@@ -1,0 +1,16 @@
+.landing-hero-container {
+    height: 88vh;
+}
+.home-sec1-hero {
+    height: 88vh;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .landing-hero-container {
+        height: calc(100dvh - 6vh - 3vw - env(safe-area-inset-bottom));
+    }
+    .home-sec1-hero {
+        height: calc(100dvh - 6vh - 3vw - env(safe-area-inset-bottom));
+    }
+}

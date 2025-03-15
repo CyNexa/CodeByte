@@ -6,18 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="" type="image/x-icon">
   <link rel="stylesheet" href="/output.css">
+  <link rel="stylesheet" href="/custom.css">
   <title> <%= pageTitle %> </title>
 </head>
 
-<body class="lg:bg-white lg:p-[2vw] flex flex-col-reverse lg:flex-row" style="border-radius: 25px; height: calc(100vh - 6vh); margin: 0; overflow: hidden;">
-  <header style="background: #081a1b; border-radius: 25px;" class="lg:h-[88vh] lg:w-[6vw] flex lg:flex-col justify-between items-center lg:px-5 lg:py-10">
-    <a class="hidden lg:block" href="/"><img src="logo.png" alt="logo"></a>
-    <nav>
-      <ul class="flex lg:flex-col lg:space-y-15">
-        <li><a href="/"><img width="34" height="34" src="icons/home.svg" /></a></li>
-        <li><a href="/member"><img width="34" height="34" src="icons/member.svg" /></a></li>
-        <li><a href="/projects"><img width="34" height="34" src="icons/project.svg" /></a></li>
-        <li><a href="/contact"><img width="34" height="34" src="icons/contact.svg" /></a></li>
+<body class="lg:bg-white lg:p-[2vw] flex flex-col-reverse lg:flex-row lg:h-[94vh] overflow-hidden rounded-[10px] lg:rounded-[25px] m-0">
+  <header class="h-[6vh] lg:h-[88vh] lg:w-[6vw] flex lg:flex-col lg:justify-between items-center lg:py-8 mt-[1vw] lg:mt-0 rounded-[10px] lg:rounded-[25px] bg-[#081a1b]">
+    <a class="hidden lg:block" href="/"><img width="50" height="50" src="logo.png" alt="logo"></a>
+    <nav class="w-full h-full">
+      <ul class="flex w-full h-full justify-around lg:justify-center items-center lg:flex-col lg:space-y-15 px-10 lg:px-0">
+        <li><a href="/"><img width="30" height="30" src="icons/home.svg" /></a></li>
+        <li><a href="/member"><img width="30" height="30" src="icons/member.svg" /></a></li>
+        <li><a href="/projects"><img width="30" height="30" src="icons/project.svg" /></a></li>
+        <li><a href="/contact"><img width="30" height="30" src="icons/contact.svg" /></a></li>
       </ul>
     </nav>
     <a class="hidden lg:block" href=""><img width="40" height="40" src="icons/sun.svg" /></a>
