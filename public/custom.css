@@ -1,16 +1,22 @@
-.landing-hero-container {
-    height: 88vh;
+.layout-body {
+    height: calc(100vh - 2vw);
 }
-.home-sec1-hero {
-    height: 88vh;
+.landing-hero-container, .home-sec1-hero, .header-nav{
+    height: calc(100vh - 5vw);
 }
 
 /* Responsive */
 @media (max-width: 767px) {
+    .layout-body {
+        height: calc(100dvh - 2vw - env(safe-area-inset-bottom));
+    }
     .landing-hero-container {
         height: calc(100dvh - 6vh - 3vw - env(safe-area-inset-bottom));
     }
     .home-sec1-hero {
         height: calc(100dvh - 6vh - 3vw - env(safe-area-inset-bottom));
+    }
+    .header-nav {
+        height: 6vh;
     }
 }
