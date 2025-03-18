@@ -1,21 +1,68 @@
-<main class="lg:flex-1 overflow-y-auto lg:ml-[1.5vw] [::-webkit-scrollbar]:hidden [scrollbar-width:none] lg:relative rounded-[10px] lg:rounded-[25px] landing-hero-container" >
-    <section style="z-index: -100;" class="hidden lg:block">
-        <div style="background: #3c7068; width: 56.5vw; height: calc(100vh - 5vw); border-radius: 25px 25px 0px 30px;" class="absolute"></div>
-        <div style="background: #3c7068; width: 40vw; height: calc(94vh - 6vw); border-radius: 0 30px 30px 0;" class="absolute right-0 bottom-0"></div>
-        <div style="background: #3c7068; width: 40vw; height: 40vh; margin-top: 3vh; margin-right: 10vw;" class="absolute right-0 top-0"></div>
-    </section>
-    <section style="background: white; padding: 0px 0px 1vw 1vw; border-bottom-left-radius: 30px;" class="absolute right-0 hidden lg:block">
-        <div style="width: 30vw; height: 6vh; border-radius: 25px; background: #081a1b;" class="flex items-center justify-around text-white">
-            <a href="#">CyNexa</a>
-            <a href="#">XeNon</a>
-            <a href="#">Sidroy</a>
-            <a href="#">Agatha</a>
+<main
+    class="lg:flex-1 overflow-y-auto lg:ml-[1.5vw] [::-webkit-scrollbar]:hidden [scrollbar-width:none] lg:relative rounded-[10px] lg:rounded-[25px] landing-hero-container">
+    <section style="z-index: 100;"
+        class="relative flex flex-col bg-[url('/Image/hero-bg.webp')] bg-cover justify-center p-5 lg:p-10 rounded-[10px] lg:rounded-[25px] home-sec1-hero">
+        <div>
+            <span class="font-mono text-xl text-orange-500 lg:text-3xl">CODEBYTE</span>
+            <h1 class="text-5xl text-white font-semibold lg:text-8xl">CODE. <span
+                    class="text-transparent hero-h1-span">GAME.</span> <br>DOMINATE.</h1>
+            <h3 class="text-gray-200 font-light pl-2 border-l-2 border-orange-500 lg:text-xl">Coders by day, gamers by
+                night. Building, competing, and redefining the digital world one line at a time
+            </h3>
+        </div>
+        <div class="mt-4 lg:mt-8 flex space-x-4">
+            <button class="px-5 py-2 rounded-lg border-2 border-orange-500 text-white bg-orange-500">EXPLORE</button>
+            <button class="px-5 py-2 rounded-lg border-2 border-orange-500 text-orange-500 bg-transparent">JOIN
+                US</button>
         </div>
     </section>
-    <section style="padding: 10px; width: auto; z-index: 100; " class="relative lg:bg-transparent bg-[#3c7068] rounded-[10px] lg:rounded-[25px] home-sec1-hero">
-       <p class="text-white text-xl lg:text-2xl p-10">NxUI V1.0</p>
+
+    <section class="p-5 lg:p-10 rounded-[10px] lg:rounded-[25px] bg-[#1c0c19] mt-[1vw] lg:mt-[1.5vw]">
+        <span class="font-mono text-orange-500 lg:text-2xl">ABOUT</span>
+        <h3 class="text-2xl lg:text-4xl text-white">Team CodeByte</h3>
+        <p class="text-gray-200 font-light pl-2 border-l-2 border-orange-500 mt-2 lg:text-xl">We are a team of coders,
+            ethical hackers, designers, and gamers, united by our passion for technology and
+            esports. From building sleek websites and exploring cybersecurity to mastering game strategies, we push
+            limits, create new experiences, and dominate the digital world.</p>
     </section>
-    <section style="padding: 10px; width: auto;" class="h-[40vh] mt-[1vw] lg:mt-[2vw] rounded-[10px] lg:rounded-[25px] bg-[#3c7068]">
-       
+
+    <section class="p-5 lg:p-10 rounded-[10px] lg:rounded-[25px] bg-[#1c0c19] mt-[1vw] lg:mt-[1.5vw]">
+        <div class="flex justify-between items-center h-[40vh] overflow-hidden pt-5">
+            <div>
+                <h2 class="text-white text-8xl"><span class="text-transparent hero-h1-span">CY</span>NEX<span class="text-transparent hero-h1-span">A</span></h2>
+                <p class="text-xl text-gray-200">Ethical Hacker | Web Developer | Founder</p>
+            </div>
+            <img class="h-full object-cover object-top" src="image/nick.webp" alt="CyNexa">
+        </div>
+
+        <hr class="border-2 border-orange-500">
+
+        <div class="flex justify-between items-center h-[40vh] overflow-hidden pt-5">
+            <img class="h-full object-cover object-top" src="image/xenon.webp" alt="XeNon">
+            <div class="text-right">
+                <h2 class="text-white text-8xl">XEN<span class="text-transparent hero-h1-span">ON</span></h2>
+                <p class="text-xl text-gray-200">Computer Science Student | Analyst</p>
+            </div>
+        </div>
+
+        <hr class="border-2 border-orange-500">
+
+        <div class="flex justify-between items-center h-[40vh] overflow-hidden pt-5">
+            <div>
+                <h2 class="text-white text-8xl">SID<span class="text-transparent hero-h1-span">ROY</span></h2>
+                <p class="text-xl text-gray-200">Gamer | Animator | Game Developer</p>
+            </div>
+            <img class="h-full object-cover object-top" src="image/sidroy.webp" alt="SidRoy">
+        </div>
+
+        <hr class="border-2 border-orange-500">
+
+        <div class="flex justify-between items-center h-[40vh] overflow-hidden pt-5">
+            <img class="h-full object-cover object-top" src="image/agatha.webp" alt="Agatha">
+            <div class="text-right">
+                <h2 class="text-white text-8xl">AGATHA</h2>
+                <p class="text-xl text-gray-200">Professional UI/UX Designer</p>
+            </div>
+        </div>
     </section>
 </main>

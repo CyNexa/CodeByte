@@ -1,8 +1,19 @@
 .layout-body {
     height: calc(100vh - 2vw);
 }
-.landing-hero-container, .home-sec1-hero, .header-nav{
+
+.landing-hero-container,
+.home-sec1-hero,
+.header-nav {
     height: calc(100vh - 5vw);
+}
+
+.hero-h1-span {
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+}
+
+.home-sec3 section{
+    width: calc(100vw - 5vw - 6vw - 3vw);
 }
 
 /* Responsive */
@@ -10,13 +21,20 @@
     .layout-body {
         height: calc(100dvh - 2vw - env(safe-area-inset-bottom));
     }
+
     .landing-hero-container {
         height: calc(100dvh - 6vh - 3vw - env(safe-area-inset-bottom));
     }
+
     .home-sec1-hero {
-        height: calc(100dvh - 6vh - 3vw - env(safe-area-inset-bottom));
+        height: calc(80dvh - 6vh - 3vw - env(safe-area-inset-bottom));
     }
+
     .header-nav {
         height: 6vh;
+    }
+
+    .home-sec3 section{
+        width: calc(100vw - 2vw);
     }
 }
