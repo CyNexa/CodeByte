@@ -318,6 +318,9 @@
   .bg-\[url\(\'\/Image\/hero-bg\.webp\'\)\] {
     background-image: url('/Image/hero-bg.webp');
   }
+  .bg-\[url\(\'\/image\/hero-bg\.webp\'\)\] {
+    background-image: url('/image/hero-bg.webp');
+  }
   .bg-cover {
     background-size: cover;
   }
